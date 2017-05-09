@@ -1,0 +1,8 @@
+com:
+  davita:
+    client-truststore: client.jks
+    client-truststore-password: password
+    client-keystore: client.jks
+    client-keystore-password: password
+server:
+  port: 0 #random port assignment
