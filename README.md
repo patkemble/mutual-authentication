@@ -2,6 +2,12 @@
 This project is intended to show how an SSL certificate
 can be used to authenticate between two spring boot applications
 
+## Instructions
+Startup the server project by running the ```ServerApplication``` spring boot app
+in the server module and then starting the ```ClientApplication```
+
+You will see the "hello world" log message in the output for the ```ClientApplicaiton```
+
 ## SSL Certs
 Each spring boot runtime needs to have it's own certificate and keystore to reference and use for calling from the "client" app to the "server" app
 
