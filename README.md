@@ -39,8 +39,10 @@ and the server.
 The client takes one parameter which is the URL of the server that should be called after startup (https://localhost:8080/hello) and the
 response will be printed out in the logs of the client application
 
+Here's an example of the log line from the client application and a successful request/response from the server application
 <code>
 2017-05-09 12:50:35.986  INFO 24220 --- [           main] c.davita.physician.security.RestClient   : hello world
 </code>
+
 
 You can see the error received if you attempt to access the server URL from the browser or from curl on the command line
