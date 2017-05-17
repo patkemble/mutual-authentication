@@ -52,3 +52,8 @@ Here's an example of the log line from the client application and a successful r
 
 
 You can see the error received if you attempt to access the server URL from the browser or from curl on the command line
+
+## Cloudfoundry / Bluemix
+Because Cloudfoundry issues a sub-domain SSL certificate on the applications behalf the keystore on the server side will not be used when deploying
+ there. In order to force a Cloudfoundry application to use mutual authentication based on certificates you must add a custom route to the applicaiton
+ and associate a custom certificate file for that route. An example and instructions can be found here: https://developer.ibm.com/apiconnect/2016/07/06/securing-apic-bm-app-mutual-tls/#step1a
